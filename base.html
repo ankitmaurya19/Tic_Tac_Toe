@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="javas.js"></script>
+    <link rel="icon" href="favicona.ico">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <!-- <div id="name">TIC TAC TOE <br> GAME </div>-->
+    <div class="square">
+        <audio src="round.wav" id="m1" type="audio/ogg"></audio>
+        <audio src="win.wav" id="m2" type="audio/ogg"></audio>
+        <audio src="draw.wav" id="m3" type="audio/ogg"></audio>
+        <h1 class="title">TIC <span> TAC </span> TOE</h1>
+        <div class="status">
+            <div class="turn" id="prt">X's Turn</div>
+            <div class="reset" id="rst" onclick="funrst()">Reset</div>
+        </div>
+      <div class="grid">
+        <div class="box">
+          <textarea id="a" onclick="fun1(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="b" onclick="fun2(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="c" onclick="fun3(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="d" onclick="fun4(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="e" onclick="fun5(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="f" onclick="fun6(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="g" onclick="fun7(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="h" onclick="fun8(); fun();" readonly></textarea>
+        </div>
+        <div class="box">
+          <textarea id="i" onclick="fun9(); fun();" readonly></textarea>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
